@@ -1,0 +1,72 @@
+:root {
+    font-size: 16px;
+}
+
+img {
+    width: 100%;
+}
+
+.principal {
+    background: #f6f6f6;
+    padding: 0px 20px 20px;
+    text-align: center;
+}
+
+#titulo {
+    position: relative;
+    padding: 15px;
+}
+
+#icon-principal {
+    width: 15px;
+    height: auto;
+    padding-right: 10px;
+    top: 50%;
+    transform: translate(0, 30%);
+}
+
+h1, h2 {
+    display: inline-block;
+    color: #036564;
+}
+
+em {
+    font-size: 18px;
+}
+
+em strong {
+    color: #033649;
+}
+
+.beneficios {
+    background: #FFF;
+    padding: 1px 20px;
+}
+
+#titulo-beneficios {
+    color: #033649;
+}
+
+.lista {
+    list-style-type: none;
+    display: inline-block;
+    vertical-align: top;
+    width: 30%;
+    margin-right: 15%;
+}
+
+.item {
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+.icon {
+    width: 15px;
+    margin-right: 5px;
+    padding-top: 5px;
+}
+
+#img-beneficios {
+    display: inline;
+    width: 40%;
+}
