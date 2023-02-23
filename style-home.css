@@ -1,0 +1,104 @@
+:root {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+}
+
+#titulo-header {
+    display: inline-block;
+    padding: 0;
+    margin: 10px;
+    font-size: 38px;
+    font-weight: 600;
+}
+
+#titulo-header, #titulo-sobre, #titulo-beneficios {
+    color: #680a1d;
+    text-shadow: #241714 0.03em 0.03em 0.08em;
+}
+
+#banner {
+    width: 100%;
+}
+
+.principal {
+    background: #f6f6f6;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+#titulo-main {
+    padding: 10px;
+}
+
+#titulo-sobre {
+    padding: 0;
+    margin: 20px 0px 30px;
+    font-size: 28px;
+    font-weight: 500;
+}
+
+#sobre-alura {
+    padding: 0px 100px 10px;
+}
+
+#icon-principal {
+    width: 10px;
+    height: auto;
+    padding-right: 10px;
+    top: 10%;
+    transform: translate(0, 20%);
+}
+
+#icon-principal, #titulo-sobre {
+    display: inline-block;
+}
+
+p em {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+p em strong {
+    color: #680a1d;
+    font-style: italic;
+}
+
+section p {
+    padding-bottom: 30px;
+    line-height: 1.5rem;
+}
+
+.beneficios {
+    background: #FFF;
+    padding: 30px;
+}
+
+#titulo-beneficios {
+    font-size: 24px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.lista {
+    list-style-type: none;
+    display: inline-block;
+    vertical-align: top;
+    width: 30%;
+    margin-right: 15%;
+}
+
+.item {
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+.icon {
+    width: 15px;
+    margin-right: 5px;
+    padding-top: 5px;
+}
+
+#img-beneficios {
+    display: inline;
+    width: 40%;
+}
