@@ -3,54 +3,96 @@
     font-size: 18px;
 }
 
-#titulo-header {
-    display: inline-block;
-    padding: 0;
-    margin: 10px;
-    font-size: 38px;
-    font-weight: 600;
+body {
+    background: #f6f6f6;
 }
 
-#titulo-header, #titulo-sobre, #titulo-beneficios {
-    color: #680a1d;
-    text-shadow: #241714 0.03em 0.03em 0.08em;
+header {
+    background: #fffeea;
+    padding: 20px;
 }
 
-#banner {
+.banner {
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+
+.navegacao {
+    position: absolute;
+    top: 110px;
+    right: 20px;
+}
+
+.lista {
+    display: inline;
+    margin-left: 15px;
+}
+
+.lista-link {
+    list-style-type: none;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 24px;
+    color: #241714;
+}
+
+.lista-link:hover {
+    color: #5b1023;
+    text-decoration: underline;
+}
+
+.lista-link:active {
+    color: #bd7a22;
+}
+
+.img-banner {
     width: 100%;
 }
 
 .principal {
-    background: #f6f6f6;
-    padding: 10px 20px;
+    margin: 25px auto 100px;
+    width: 940px;
     text-align: center;
 }
 
-#titulo-main {
-    padding: 10px;
+.principal section {
+    margin: 20px 0;
 }
 
-#titulo-sobre {
+.titulo-principal {
+    display: inline-block;
     padding: 0;
-    margin: 20px 0px 30px;
-    font-size: 28px;
+    margin: 0.75em 0px 1.25em;
+    font-size: 1.75em;
     font-weight: 500;
+    color: #680a1d;
+    text-shadow: #241714 0.03em 0.03em 0.08em;
 }
 
-#sobre-alura {
-    padding: 0px 100px 10px;
+.mapa p {
+    margin-bottom: 1em;
 }
 
-#icon-principal {
+.img-utensilios {
+    width: 200px;
+    float: left;
+    margin: 0 20px 5px 0;
+}
+
+.sobre-alura {
+    display: inline;
+    text-align: left;
+}
+
+#img-icon-principal {
+    display: inline-block;
     width: 10px;
     height: auto;
     padding-right: 10px;
     top: 10%;
     transform: translate(0, 20%);
-}
-
-#icon-principal, #titulo-sobre {
-    display: inline-block;
 }
 
 p em {
@@ -64,35 +106,35 @@ p em strong {
 }
 
 section p {
-    padding-bottom: 30px;
+    padding-bottom: 15px;
     line-height: 1.5rem;
 }
 
-.beneficios {
-    background: #FFF;
-    padding: 30px;
+.sobre-alura, .mapa .beneficios {
+    margin: 5em 0;
 }
 
-#titulo-beneficios {
-    font-size: 24px;
-    font-weight: 400;
+.beneficios {
+    clear: left;
+    display: inline;
+    text-align: left;
     margin-bottom: 30px;
 }
 
-.lista {
-    list-style-type: none;
-    display: inline-block;
-    vertical-align: top;
+.beneficios-lista {
     width: 30%;
     margin-right: 15%;
+    list-style-type: none;
+    display: inline;
+    vertical-align: top;
 }
 
-.item {
+.lista-item {
     margin-bottom: 10px;
     padding: 5px;
 }
 
-.icon {
+.img-icon {
     width: 15px;
     margin-right: 5px;
     padding-top: 5px;
@@ -100,5 +142,11 @@ section p {
 
 #img-beneficios {
     display: inline;
+    vertical-align: top;
     width: 40%;
+}
+
+.video {
+    width: 560px;
+    margin: 1em auto;
 }
