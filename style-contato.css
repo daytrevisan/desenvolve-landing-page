@@ -5,8 +5,9 @@
 }
 
 header {
-    background: #fffeea;
+    background: #F6F6F6;
     padding: 20px;
+    box-shadow: inset 0px 0px 1000px #000;
 }
 
 .banner {
@@ -119,4 +120,38 @@ tr td {
     color: #f6f6f6;
     font-size: 12px;
     margin: 10px 0 0;
+}
+
+@media screen and (max-width: 480px) {
+
+    .banner {
+        width: 100%;
+        text-align: center;
+    }
+
+    .navegacao {
+        position: static;
+        padding: 10px 0 20px;
+    }
+
+    .lista {
+        font-size: 12px;
+        margin-left: 8px;
+    }
+
+    main {
+        width: 100%;
+        margin: 50px 20px;
+    }
+
+    form {
+        width: 90%;
+        padding-right: 10px;
+    }
+
+    #botao-envio {
+        width: auto;
+        font-size: 14px;
+        padding: 15px;
+    }
 }
