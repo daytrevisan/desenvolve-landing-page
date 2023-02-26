@@ -5,8 +5,9 @@
 }
 
 header {
-    background: #fffeea;
+    background: #F6F6F6;
     padding: 20px;
+    box-shadow: inset 0px 0px 1000px #000;
 }
 
 .banner {
@@ -101,4 +102,32 @@ header {
     color: #f6f6f6;
     font-size: 12px;
     margin: 10px 0 0;
+}
+
+@media screen and (max-width: 480px) {
+
+    .banner {
+        width: 100%;
+        text-align: center;
+    }
+
+    .navegacao {
+        position: static;
+        padding: 10px 0 20px;
+    }
+
+    .lista {
+        font-size: 12px;
+        margin-left: 8px;
+    }
+
+    .produtos {
+        width: 100%;
+        padding: 20px 0;
+    }
+
+    .produtos-lista {
+        width: 80%;
+        margin: 20px 35px;
+    }
 }
